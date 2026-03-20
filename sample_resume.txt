@@ -1,0 +1,57 @@
+John Martinez
+john.martinez@email.com | +1 (415) 555-0192 | linkedin.com/in/johnmartinez | github.com/jmartinez
+San Francisco, CA
+
+SUMMARY
+Full-stack software engineer with 5 years of experience building scalable web applications.
+Strong background in JavaScript/TypeScript ecosystems, REST API design, and cloud infrastructure.
+Looking to transition into machine learning engineering roles.
+
+EXPERIENCE
+
+Senior Software Engineer — TechCorp Inc.
+June 2021 – Present | San Francisco, CA
+- Led development of a React/Node.js platform serving 200,000+ monthly active users
+- Designed and implemented 30+ REST API endpoints using Express.js and GraphQL
+- Reduced page load time by 40% through lazy loading and Redis caching strategies
+- Mentored 3 junior engineers and conducted weekly code reviews
+- Built CI/CD pipelines using Jenkins and GitHub Actions
+- Managed AWS infrastructure: EC2, S3, RDS, Lambda
+
+Software Engineer — Startup Inc.
+August 2019 – May 2021 | Remote
+- Built frontend features in React and Redux for a SaaS dashboard product
+- Wrote unit and integration tests using Jest and React Testing Library (85% coverage)
+- Collaborated with product and design teams in an Agile/Scrum environment
+- Integrated third-party APIs: Stripe, Twilio, SendGrid
+
+EDUCATION
+
+Bachelor of Science, Computer Science
+State University, 2019 | GPA: 3.7 / 4.0
+Relevant coursework: Data Structures, Algorithms, Database Systems, Linear Algebra, Probability
+
+SKILLS
+
+Languages:       JavaScript, TypeScript, Python (intermediate), Java, SQL
+Frontend:        React, Next.js, Redux, HTML5, CSS3, Tailwind CSS
+Backend:         Node.js, Express.js, GraphQL, REST APIs, FastAPI (basic)
+Databases:       PostgreSQL, MongoDB, Redis, SQLite
+Cloud & DevOps:  AWS (EC2, S3, RDS, Lambda), Docker, Jenkins, GitHub Actions
+Testing:         Jest, React Testing Library, Pytest (basic)
+Other:           Git, Agile/Scrum, Jira, Figma
+
+CERTIFICATIONS
+
+AWS Certified Cloud Practitioner — Amazon Web Services, 2022
+
+PROJECTS
+
+Personal Finance Tracker (2023)
+- Full-stack app using Next.js, FastAPI, and PostgreSQL
+- Implemented Plaid API integration for bank account syncing
+- Deployed on AWS with Docker Compose
+
+Open Source Contributions
+- Contributed 12 PRs to popular React component libraries
+- Maintained a CLI tool for API mocking (200+ GitHub stars)
