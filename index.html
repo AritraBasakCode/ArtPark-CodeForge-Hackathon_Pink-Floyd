@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PathwayAI — Resume Skill Gap Analyzer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <span class="nav-icon">🧭</span>
+    <span class="nav-title">PathwayAI</span>
+    <span class="nav-sep">/</span>
+    <span class="nav-page">Analyzer</span>
+  </nav>
+
+  <main class="page">
+
+    <span class="page-icon">🧭</span>
+    <h1 class="page-title">Resume Skill Gap Analyzer</h1>
+    <p class="page-desc">Upload your resume and paste the job description to generate a personalized learning pathway.</p>
+
+    <div class="callout">
+      <span class="callout-icon">💡</span>
+      <span>The engine extracts your skills, compares them against the role requirements, and builds an adaptive training plan — skipping what you already know.</span>
+    </div>
+
+    <div class="block-divider"></div>
+
+    <h2 class="block-h2">Resume</h2>
+    <p style="font-size:14px; color:var(--text-2); margin: 6px 0 12px;">Upload your resume as a PDF, DOC, or DOCX file.</p>
+
+    <div class="upload-zone" id="upload-zone">
+      <input type="file" id="resume" accept=".pdf,.doc,.docx" />
+      <div class="upload-inner">
+        <span class="upload-emoji">📄</span>
+        <span class="upload-label">Drop your resume here</span>
+        <span class="upload-hint">or click to browse — PDF, DOC, DOCX up to 10MB</span>
+        <span class="upload-filename" id="file-name"></span>
+      </div>
+    </div>
+
+    <div class="block-divider"></div>
+
+    <h2 class="block-h2">Job Description</h2>
+    <p style="font-size:14px; color:var(--text-2); margin: 6px 0 12px;">Paste the full job posting — include required skills, responsibilities, and qualifications.</p>
+
+    <div class="textarea-wrap">
+      <textarea id="jobDescription" placeholder="Paste job description here..."></textarea>
+    </div>
+
+    <button id="analyzeBtn" class="btn-primary">Analyze skill gaps →</button>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
