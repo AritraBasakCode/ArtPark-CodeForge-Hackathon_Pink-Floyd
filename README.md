@@ -34,25 +34,50 @@ An AI-powered onboarding assistant that compares a candidate resume against a jo
 ## Project Structure
 
 ```text
-.
-├── backend
-│   ├── app
-│   │   ├── core
-│   │   ├── models
-│   │   ├── routes
-│   │   ├── schemas
-│   │   ├── services
-│   │   ├── init_db.py
-│   │   └── main.py
-│   ├── data
+ArtPark CodeForge/
+├── backend/
+│   ├── app/
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── db.py
+│   │   ├── models/
+│   │   │   ├── plan.py
+│   │   │   └── upload.py
+│   │   ├── routes/
+│   │   │   ├── health.py
+│   │   │   └── onboarding.py
+│   │   ├── schemas/
+│   │   │   └── onboarding.py
+│   │   ├── services/
+│   │   │   ├── adaptive_pathing.py
+│   │   │   ├── parser.py
+│   │   │   ├── skill_catalog.py
+│   │   │   └── skill_gap.py
+│   │   │   ├── skill_taxonomy.py
+│   │   ├── data/
+│   │   │   ├── course_catalog.json
+│   │   │   └── skill_taxonomy.json
+│   │   ├── main.py
+│   │   └── init_db.py
 │   ├── requirements.txt
-│   └── Dockerfile
-├── frontend
-│   ├── src
+│   ├── Dockerfile
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── api.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   ├── types.ts
+│   │   └── styles.css
+│   │   ├── vite-env.d.ts
+│   ├── index.html
+│   ├── package-lock.json
 │   ├── package.json
+│   ├── tsconfig.json
 │   ├── vite.config.ts
 │   └── Dockerfile
-└── docker-compose.yml
+├── docker-compose.yml
+└── README.md
 ```
 
 ---
