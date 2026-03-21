@@ -1,0 +1,68 @@
+{
+  "modules": [
+    {
+      "module_id": "PY-101",
+      "title": "Python Fundamentals for Data Work",
+      "skill_target": "Python",
+      "estimated_hours": 6,
+      "prerequisites": [],
+      "why": "Build core scripting and data manipulation confidence."
+    },
+    {
+      "module_id": "SQL-101",
+      "title": "SQL for Analytics",
+      "skill_target": "SQL",
+      "estimated_hours": 5,
+      "prerequisites": [],
+      "why": "Enable querying and transforming relational datasets."
+    },
+    {
+      "module_id": "STAT-101",
+      "title": "Applied Statistics Essentials",
+      "skill_target": "Statistics",
+      "estimated_hours": 6,
+      "prerequisites": [],
+      "why": "Strengthen data interpretation and experiment design."
+    },
+    {
+      "module_id": "ML-201",
+      "title": "Machine Learning Foundations",
+      "skill_target": "Machine Learning",
+      "estimated_hours": 8,
+      "prerequisites": ["PY-101", "STAT-101"],
+      "why": "Understand supervised learning workflows and evaluation."
+    },
+    {
+      "module_id": "DL-301",
+      "title": "Deep Learning Bootcamp",
+      "skill_target": "Deep Learning",
+      "estimated_hours": 10,
+      "prerequisites": ["ML-201"],
+      "why": "Learn neural network modeling for advanced tasks."
+    },
+    {
+      "module_id": "VIZ-101",
+      "title": "Business Data Storytelling",
+      "skill_target": "Data Visualization",
+      "estimated_hours": 4,
+      "prerequisites": [],
+      "why": "Create clear role-relevant dashboards and communication artifacts."
+    },
+    {
+      "module_id": "MLOPS-401",
+      "title": "MLOps and Productionization",
+      "skill_target": "MLOps",
+      "estimated_hours": 9,
+      "prerequisites": ["ML-201", "SQL-101"],
+      "why": "Operationalize models with reproducibility and monitoring."
+    },
+    {
+      "module_id": "COMM-101",
+      "title": "Technical Communication for Teams",
+      "skill_target": "Communication",
+      "estimated_hours": 3,
+      "prerequisites": [],
+      "why": "Improve stakeholder alignment and onboarding success."
+    }
+  ]
+}

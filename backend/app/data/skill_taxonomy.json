@@ -1,0 +1,10 @@
+{
+  "Python": ["python", "py", "pandas", "numpy"],
+  "SQL": ["sql", "postgresql", "mysql", "sqlite"],
+  "Machine Learning": ["machine learning", "ml", "scikit-learn"],
+  "Deep Learning": ["deep learning", "neural networks", "pytorch", "tensorflow"],
+  "Data Visualization": ["tableau", "power bi", "matplotlib", "seaborn"],
+  "MLOps": ["mlops", "docker", "kubernetes", "ci/cd", "model deployment"],
+  "Statistics": ["statistics", "hypothesis testing", "regression", "probability"],
+  "Communication": ["communication", "presentation", "stakeholder", "collaboration"]
+}
