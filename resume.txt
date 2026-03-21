@@ -1,0 +1,6 @@
+﻿Riya Sharma
+Data Analyst with 2 years of experience in Python, SQL, Statistics, and Data Visualization (Tableau, Matplotlib).
+Built customer churn dashboards and automated reporting pipelines.
+Worked on machine learning prototypes using scikit-learn for classification and regression.
+Collaborated with product managers and business stakeholders to present insights.
+Familiar with Docker basics and CI/CD concepts.

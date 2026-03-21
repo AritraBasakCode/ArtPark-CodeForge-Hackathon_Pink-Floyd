@@ -1,0 +1,16 @@
+﻿Machine Learning Engineer
+
+We are looking for a Machine Learning Engineer to build and deploy scalable ML systems.
+
+Must have:
+- Strong Python and SQL
+- Strong Machine Learning fundamentals and model evaluation
+- MLOps experience (Docker, Kubernetes, CI/CD, model deployment)
+
+Required:
+- Deep Learning knowledge (PyTorch or TensorFlow)
+- Strong statistics and experimentation skills
+
+Nice to have:
+- Data Visualization and storytelling
+- Excellent communication and cross-functional collaboration
