@@ -52,8 +52,8 @@ ArtPark CodeForge/
 │   │   │   ├── adaptive_pathing.py
 │   │   │   ├── parser.py
 │   │   │   ├── skill_catalog.py
-│   │   │   └── skill_gap.py
-│   │   │   ├── skill_taxonomy.py
+│   │   │   ├── skill_gap.py
+│   │   │   └── skill_taxonomy.py
 │   │   ├── data/
 │   │   │   ├── course_catalog.json
 │   │   │   └── skill_taxonomy.json
@@ -68,8 +68,8 @@ ArtPark CodeForge/
 │   │   ├── App.tsx
 │   │   ├── main.tsx
 │   │   ├── types.ts
-│   │   └── styles.css
-│   │   ├── vite-env.d.ts
+│   │   ├── styles.css
+│   │   └── vite-env.d.ts
 │   ├── index.html
 │   ├── package-lock.json
 │   ├── package.json
